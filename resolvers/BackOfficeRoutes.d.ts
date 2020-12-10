@@ -1,0 +1,11 @@
+import { BackOfficeRoutes, BackOffice } from '@risqprotocol/risqjs';
+import { Resolver } from '../';
+export declare const accounting: Resolver<[BackOffice, BackOfficeRoutes]>;
+export declare const feeManager: Resolver<[BackOffice, BackOfficeRoutes]>;
+export declare const participation: Resolver<[BackOffice, BackOfficeRoutes]>;
+export declare const policyManager: Resolver<[BackOffice, BackOfficeRoutes]>;
+export declare const shares: Resolver<[BackOffice, BackOfficeRoutes]>;
+export declare const trading: Resolver<[BackOffice, BackOfficeRoutes]>;
+export declare const vault: Resolver<[BackOffice, BackOfficeRoutes]>;
+export declare const registry: Resolver<[BackOffice, BackOfficeRoutes]>;
+export declare const version: Resolver<[BackOffice, BackOfficeRoutes]>;

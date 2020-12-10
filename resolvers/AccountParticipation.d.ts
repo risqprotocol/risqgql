@@ -1,0 +1,10 @@
+import { Participation } from '@risqprotocol/risqjs';
+import { Resolver } from '../';
+export declare const address: Resolver<[Participation, string]>;
+export declare const hasInvested: Resolver<[Participation, string]>;
+export declare const hasRequest: Resolver<[Participation, string]>;
+export declare const hasValidRequest: Resolver<[Participation, string]>;
+export declare const hasExpiredRequest: Resolver<[Participation, string]>;
+export declare const investmentRequestState: Resolver<[Participation, string]>;
+export declare const request: Resolver<[Participation, string]>;
+export declare const canCancelRequest: Resolver<[Participation, string]>;

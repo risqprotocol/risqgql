@@ -1,0 +1,10 @@
+import { BackOffice } from '@risqprotocol/risqjs';
+import { Resolver } from '../';
+export declare const address: Resolver<BackOffice>;
+export declare const name: Resolver<BackOffice>;
+export declare const manager: Resolver<BackOffice>;
+export declare const creator: Resolver<BackOffice>;
+export declare const creationTime: Resolver<BackOffice>;
+export declare const isShutDown: Resolver<BackOffice>;
+export declare const routes: Resolver<BackOffice>;
+export declare const progress: Resolver<BackOffice>;
