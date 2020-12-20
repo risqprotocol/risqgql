@@ -41,7 +41,7 @@
     "postrelease": "git push"
   },
   "dependencies": {
-    "@risqprotocol/risqjs": "^1.0.0",
+     "risqjs": "risqprotocol/risqjs#main",
     "apollo-link": "^1.2.14",
     "apollo-utilities": "^1.3.3",
     "bignumber.js": "^9.0.0",
