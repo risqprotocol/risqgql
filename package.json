@@ -77,7 +77,7 @@
     "typescript": "^3.8.3"
   },
   "peerDependencies": {
-    "@risqprotocol/risqjs": "risqprotocol/risqjs#main",
+    "@risqprotocol/risqjs": "risqprotocol/risqjs#main"
   },
   "resolutions": {
     "ethereumjs-vm": "^4.0.0",
